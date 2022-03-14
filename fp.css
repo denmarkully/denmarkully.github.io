@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+
+.navbar{
+    padding: 20px 0;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+}
+
+.navbar-brand{
+    font-family: 'Fresh Marker', sans-serif;                                            
+    font-size: 70px; 
+    padding: 5px;                                        
+}
+
+.sp{
+    font-family: 'Graffogie', sans-serif;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+
+.nav-link{
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Amsterdam Graffiti', sans-serif;
+                                                
+                                                 
+}
+
+.nav-link:hover{
+    border-radius: 10px;
+    padding: 5px;
+    
+
+
+}
+
+.content{
+    background-image: url(dendy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.card{
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-family: 'Rosign', sans-serif;
+    border-color: black;
+                                                
+}
+
+.card1{
+    color: whitesmoke;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translateY(-50%);
+    font-family: 'Rosign', sans-serif;
+                                                
+}
+
+
