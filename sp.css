@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    
+}
+
+
+.navbar{
+    padding: 20px 0;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+
+}
+
+.navbar-brand{
+    font-family: 'Fresh Marker', sans-serif;                                            
+    font-size: 70px; 
+    padding: 5px;                                        
+}
+
+.sp{
+    font-family: 'Graffogie', sans-serif;
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.nav-item{
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+
+.nav-link{
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Amsterdam Graffiti', sans-serif;
+                                                
+                                                 
+}
+
+.nav-link:hover{
+    border-radius: 10px;
+    padding: 5px;
+    
+
+
+}
+
+.content{
+    background-image: url(ully5.jpeg), linear-gradient(180deg,#cdccc9, #acacac);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+
+#prof{
+    font-size: 50px;
+}
+
+#prof:hover{
+    font-size: 35px;
+}
