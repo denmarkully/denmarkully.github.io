@@ -4,13 +4,14 @@
     background-color: black;
     
     
+    
 }
 
 
 .navbar{
     padding: 20px 0;
     border-radius: 5px;
-    
+
 
 }
 
@@ -51,33 +52,78 @@
 
 }
 
-.content{
-    background-image: url(dendy.jpg);
+#prof{
+    font-size: 45px;
+}
+
+#prof:hover:focus{
+    font-size: 35px;
+}
+
+.collection{
+    background-image: url(peakpx.jpg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     
+   
 }
 
 .card{
-    color: whitesmoke;
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
+    width: 30%;
+    border-radius: 10px;
+    margin: 20rem;
+    box-shadow: 2px 2px 10px whitesmoke; 
     font-family: 'Rosign', sans-serif;
-    border-color: black;
+    color: whitesmoke;
     
-                                                
+    
+       
 }
 
 .card1{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 55%;
+    margin-top: -48.8%;
+    box-shadow: 2px 2px 10px whitesmoke;
+    font-family: 'Rosign', sans-serif;
     color: whitesmoke;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translateY(-50%);
-    font-family: 'Rosign', sans-serif;                                             
+    
+     
 }
 
+.image img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.title{
+    text-align: center;
+    padding: 5px;
+    text-decoration: underline;
+    
+    
+}
+
+.des{
+    text-align: center;
+    padding: 4px;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: .5s;
+}
 
 

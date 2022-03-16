@@ -8,17 +8,15 @@
 
 .navbar{
     padding: 20px 0;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: cover;
+    border-radius: 5px;
 
 }
 
 .navbar-brand{
     font-family: 'Fresh Marker', sans-serif;                                            
     font-size: 70px; 
-    padding: 5px;                                        
+    padding: 5px;
+                                           
 }
 
 .sp{
@@ -63,6 +61,6 @@
     font-size: 50px;
 }
 
-#prof:hover{
+#prof:hover:focus{
     font-size: 35px;
 }
