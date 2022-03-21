@@ -1,24 +1,46 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: black;
-    
-    
+    box-sizing: border-box;  
+}
+
+body{
+    background-image: url(dendi.jpeg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    position: fixed;
+}
+
+.container{
+    background-color: #1c1c1c;
+    border-radius: 10px;  
 }
 
 
 .navbar{
-    padding: 20px 0;
-    border-radius: 5px;
-    
-
+    padding: 20px 0; 
+    background-color: firebrick;
+    border-radius: 10px;
+      
 }
 
 .navbar-brand{
     font-family: 'Fresh Marker', sans-serif;                                            
     font-size: 70px; 
-    padding: 5px;                                        
+    padding: 20px;  
+    color: firebrick;  
+    text-decoration: none;
 }
+
+.navbar-brand:hover{
+    color: firebrick;
+}
+
+
 
 .sp{
     font-family: 'Graffogie', sans-serif;
@@ -29,7 +51,9 @@
 .nav-item{
     font-weight: 600;
     text-transform: uppercase;
-    padding-left: 50px;
+    padding-left: 10px;
+    margin-right: 30px;
+    
 }
 
 
@@ -39,23 +63,17 @@
     font-weight: 700;
     font-style: italic;
     font-family: 'Amsterdam Graffiti', sans-serif;
-                                                
-                                                 
+    color: firebrick;                                                 
 }
 
 .nav-link:hover{
-    border-radius: 10px;
     padding: 5px;
-    
-
-
+    color: firebrick;
 }
 
-.content{
-    background-image: url(dendy.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.card-title{
+    background-color: firebrick;
+    border-radius: 5px;
 }
 
 .card{
@@ -65,19 +83,118 @@
     left: 8%;
     transform: translateY(-50%);
     font-family: 'Rosign', sans-serif;
-    border-color: black;
-    
-                                                
+                                                 
 }
 
 .card1{
     color: whitesmoke;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 35%;
     transform: translateY(-50%);
     font-family: 'Rosign', sans-serif;                                             
 }
 
+.btn1{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: firebrick;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.btn1:hover{
+    color: whitesmoke;
+    opacity: 0.6;
+}
+
+.btn{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #333333;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn:hover{
+    color: whitesmoke;
+    opacity: 0.6;
+}
+
+nav .menu-btn i{
+    color: whitesmoke;
+    font-size: 50px;
+    margin-right: 10px;
+    display: none;
+}
+
+#click{
+  display: none;
+}
 
 
+
+@media screen and (max-width: 1201px) {
+
+    body{
+        max-height: 100vh;
+    }
+
+    .card1{
+        max-width: 100%;
+        top: 90%;
+        left: 8%;
+        position: absolute;
+        overflow-y: scroll;
+    }
+    
+}
+
+@media screen and (max-width: 993px) {
+    nav .menu-btn i{
+        display: block;
+    }
+
+    #click:checked ~ .menu-btn i:before{
+        content: "\f00d";
+    }
+    
+    nav ul{
+        position: fixed;
+        top: 180px;
+        left: -100%;
+        background: #111;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    #click:checked ~ ul{
+        left: 0%;
+    }
+
+    nav ul li{
+        margin: 20px 0;
+        display: block;
+    }
+
+    nav ul li a{
+        font-size: 35px;
+    }
+
+    .nav-link:hover{
+        padding: 5px;
+        color: firebrick;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .card1{
+        margin-top: 20px;
+    }
+}
