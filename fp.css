@@ -191,6 +191,13 @@ nav .menu-btn i{
         padding: 5px;
         color: firebrick;
     }
+    #prof{
+        font-size: 50px;
+    }
+    
+    #prof:hover:focus{
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 375px) {
