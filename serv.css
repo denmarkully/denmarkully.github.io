@@ -190,6 +190,27 @@ button{
     margin-bottom: 30px;
 }
 
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h5{
+    margin-top: -20px;
+}
+
+i{
+    font-size: 22px;
+}
+
+a:hover{
+    color: firebrick;
+}
+
+.a1:hover{
+    color: #1c1c1c;
+}
+
 @media screen and (max-width: 993px) {
     nav .menu-btn i{
         display: block;
