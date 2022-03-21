@@ -171,6 +171,12 @@ p{
     position: relative;
 }
 
+.submit{
+    font-family: 'Rosign', sans-serif;
+    margin-top: -100px;
+    margin-left: 47%;
+}
+
 button{
     outline: none;
     color: whitesmoke;
@@ -193,10 +199,7 @@ button{
         content: "\f00d";
     }
 
-    .submit{
-        font-family: 'Rosign', sans-serif;
-        margin-top: -50px;
-    }
+    
     
     nav ul{
         position: fixed;
